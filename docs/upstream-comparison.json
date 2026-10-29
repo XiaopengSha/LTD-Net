@@ -1,0 +1,1720 @@
+{
+  "source": "https://github.com/open-edge-platform/anomalib",
+  "branch": "main",
+  "archive_comment": "0cc8e6331a2a667fdb286b981d335393dc846383",
+  "warning": "Comparison snapshot is not necessarily the original base; differences are not proof of authorship.",
+  "files": [
+    {
+      "path": "src/anomalib/py.typed",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/checkpoint.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/graph.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/model_loader.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/tiler_configuration.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/timer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/visualizer.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/cli.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/install.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/pipelines.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/errors.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/predict.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/export.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/engine.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/comet.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/mlflow.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/tensorboard.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/wandb.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/loggers/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/anomaly_score_distribution.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/aupr.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/aupro.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/auroc.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/binning.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/evaluator.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/f1_score.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/min_max.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pg_pb.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/precision_recall_curve.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pro.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/utils.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/types.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/post_processing/one_class.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/post_processing/post_processor.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/post_processing/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pre_processing/pre_processor.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pre_processing/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/attrs.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/config.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/deprecation.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/logging.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/path.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/post_processing.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/nncf/callback.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/nncf/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/callbacks/nncf/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/utils/help_formatter.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/utils/installation.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/utils/openvino.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/cli/utils/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/generic.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/transforms/center_crop.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/transforms/multi_random_choice.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/transforms/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/transforms/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/boxes.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/download.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/image.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/label.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/path.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/split.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/synthetic.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/tiler.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/path.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/numpy/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/numpy/depth.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/numpy/image.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/numpy/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/numpy/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/torch/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/torch/depth.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/torch/image.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/torch/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/dataclasses/torch/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/base/image.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/base/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/base/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/depth/adam_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/depth/folder_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/depth/mvtec_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/depth/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/bmad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/btech.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/datumaro.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/folder.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/kolektor.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/mpdd.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/mvtecad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/mvtecad2.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/mvtec_loco.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/realiad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/tabular.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/vad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/visa.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/image/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/video/avenue.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/video/shanghaitech.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/video/ucsd_ped.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datamodules/video/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/base/depth.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/base/image.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/base/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/base/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/depth/adam_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/depth/folder_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/depth/mvtec_3d.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/depth/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/bmad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/btech.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/datumaro.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/folder.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/kolektor.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/mpdd.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/mvtecad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/mvtecad2.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/mvtec_loco.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/realiad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/tabular.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/vad.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/visa.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/image/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/video/avenue.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/video/shanghaitech.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/video/ucsd_ped.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/datasets/video/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/generators/perlin.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/utils/generators/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/numpy/depth.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/numpy/image.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/numpy/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/numpy/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/torch/depth.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/torch/image.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/torch/video.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/data/validators/torch/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/inferencers/base_inferencer.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/inferencers/openvino_inferencer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/inferencers/torch_inferencer.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/deploy/inferencers/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/accelerator/xpu.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/accelerator/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/strategy/xpu_single.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/engine/strategy/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/binary_classification_curve.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/dataclasses.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/functional.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/pimo.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/_validate.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/pimo/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/threshold/base.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/threshold/f1_adaptive_threshold.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/threshold/manual_threshold.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/metrics/threshold/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/README.md",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/backbone/resnet_decoder.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/backbone/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/anomalib_module.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/buffer_list.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/dynamic_buffer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/export_mixin.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/memory_bank_module.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/base/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/classification/kde_classifier.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/classification/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/cluster/gmm.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/cluster/kmeans.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/cluster/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dimensionality_reduction/pca.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dimensionality_reduction/random_projection.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dimensionality_reduction/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/dinov2_loader.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/vision_transformer.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/feature_extractors/timm.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/feature_extractors/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/feature_extractors/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/filters/blur.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/filters/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/flow/all_in_one_block.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/flow/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/layers/sspcab.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/layers/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/sampling/k_center_greedy.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/sampling/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/stats/kde.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/stats/multi_variate_gaussian.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/stats/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/attention.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/block.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/dino_head.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/drop_path.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/layer_scale.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/mlp.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/patch_embed.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/swiglu_ffn.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/components/dinov2/layers/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/anomaly_dino/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/anomaly_dino/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/anomaly_dino/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cfa/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/cflow/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/csflow/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfkde/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfkde/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfkde/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfkde/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfm/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfm/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfm/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dfm/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/draem/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/anomaly_generator.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dsr/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/efficient_ad/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/efficient_ad/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/efficient_ad/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/efficient_ad/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fastflow/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fre/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fre/README.md",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fre/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/fre/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/ganomaly/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/ganomaly/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/ganomaly/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/ganomaly/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/ganomaly/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/padim/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/padim/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/padim/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/padim/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/padim/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/patchcore/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/patchcore/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/patchcore/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/patchcore/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/patchcore/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/lightning_model - \u526f\u672c.txt",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/loss.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/loss_gra.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/loss_gra_spa - \u526f\u672c.txt",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/loss_gra_spa.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/orin_PDN.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/SPA - \u526f\u672c.txt",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/SPA.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/torch_model - \u526f\u672c.txt",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/torch_model_res10_FPN - \u526f\u672c.txt",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/torch_model_res10_FPN.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/torch_model_res10_FPN_ada.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/stfpm/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/anomaly_generator.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/README.md",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/supersimplenet/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/anomaly_map.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/feature_extraction.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uflow/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/lightning_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/utils.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/prompting.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/torch_model.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/utils.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/winclip/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/components/layers.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/components/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/components/optimizer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/components/vision_transformer.py",
+      "status": "not_in_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/dinomaly/components/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/components/bottleneck.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/reverse_distillation/components/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/components/anomaly_map.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/components/attention_bottleneck.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/components/dfs.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/components/loss.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/uninet/components/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/backends/base.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/backends/chat_gpt.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/backends/huggingface.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/backends/ollama.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/image/vlm_ad/backends/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/density.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/features.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/flow.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/regions.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/fuvas/lightning_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/fuvas/README.md",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/fuvas/torch_model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/fuvas/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/clip/clip.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/clip/LICENSE",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/clip/model.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/models/video/ai_vad/clip/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/benchmark/generator.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/benchmark/job.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/benchmark/pipeline.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/benchmark/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/test_pipeline.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/train_pipeline.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/base/job.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/base/pipeline.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/base/runner.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/base/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/runners/parallel.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/runners/serial.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/runners/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/utils/grid_search.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/components/utils/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/merging.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/metrics_calculation.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/model_training.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/normalization.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/prediction.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/smoothing.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/stats_calculation.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/thresholding.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/visualization.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/ensemble_engine.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/ensemble_tiling.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/helper_functions.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/prediction_data.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/prediction_merging.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pipelines/tiled_ensemble/components/utils/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pre_processing/utils/transform.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/pre_processing/utils/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/cv/connected_components.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/cv/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/normalization/min_max.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/normalization/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/types/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/visualization/base.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/visualization/explanation.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/visualization/image.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/visualization/metrics.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/utils/visualization/__init__.py",
+      "status": "different_from_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/image/functional.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/image/item_visualizer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/image/visualizer.py",
+      "status": "same_as_comparison_snapshot"
+    },
+    {
+      "path": "src/anomalib/visualization/image/__init__.py",
+      "status": "same_as_comparison_snapshot"
+    }
+  ]
+}

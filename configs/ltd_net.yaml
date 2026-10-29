@@ -1,0 +1,34 @@
+# Current working-copy defaults. This is not the paper's Adam configuration.
+seed: 42
+data:
+  root: datasets/MVTecAD
+  category: metal_nut
+  train_batch_size: 16
+  eval_batch_size: 16
+  num_workers: 0
+  # Matches the old MVTecAD default. AUROC-based checkpoint selection sees test samples.
+  val_split_mode: same_as_test
+  val_split_ratio: 0.5
+model:
+  backbone: resnet18
+  layers: [layer1, layer2, layer3]
+  image_size: [256, 256]
+  teacher_pretrained: true
+  student_lr: 0.4
+  adapter_lr: 0.05
+  momentum: 0.9
+  weight_decay: 0.001
+  eta_min: 0.000001
+  mining_ratio: 0.2
+  gradient_weight: 0.2
+  preservation_weight: 1.0
+  # Preserves the old warm-up loop; the bundled feature extractor forces eval.
+  # Thus this loop does not calibrate teacher BN; use 0 to skip redundant work.
+  adabn_batches: 51
+trainer:
+  output: outputs/train/metal_nut
+  accelerator: auto
+  devices: 1
+  max_epochs: 200
+  check_val_every_n_epoch: 2
+  patience: 15
